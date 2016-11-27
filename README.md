@@ -5,5 +5,4 @@ Data analysis kernels used for different data sets (mainly on Kaggle)
 - ontario-house-prices
 
 
-![Alt text](https://github.com/mnabaee/kernels/blob/master/images/allstate.png?raw=true " ")
-![Alt text](https://github.com/mnabaee/kernels/blob/master/images/ontarioproperties.jpg?raw=true "")
+
