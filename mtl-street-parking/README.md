@@ -3,6 +3,10 @@ This directory includes the script and notebook files for the following dataset:
 https://www.kaggle.com/mnabaee/mtlstreetparking
 
 This dataset includes the coordinates of the street segments as well as the parking signals in the City of Montreal.
+The set of kernels in this directory are used to find which street sides are allowed for parking given a time period and a center coordinate. 
+To accomplish this, two datasets are used in conjunction with each other. 
+* Street Sides' Coordinates which includes the gps coordinates of street side segments
+* Parking Signs which includes the list of all parking signs, their description text and their gps coordinates
 
 ##Using TensorFlow for Distributed Calculation of Closest Street Segments
 Since the calculation of the closest street segments for all of the parking signs takes a long time, it was necessary to run it on multiple machines. Specifically, the signs were split into multiple smaller sets and each set was processed on a different machine. This task was done using the [distributed computing capabilities in TensorFlow](https://www.tensorflow.org/versions/r0.12/how_tos/distributed/index.html).
