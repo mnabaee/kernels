@@ -58,10 +58,19 @@ A few samples of the results are shown in the following map. Each marker in the 
 ##Parsing the sign texts
 Each parking sign in the dataset has a text description which we need to parse and understand to be able to derive rules from.
 The rules will then be used to say if we can park in a street side segment in a given time period.
+The text description of each sign is parsed using a number of [regex rules](https://github.com/mnabaee/kernels/blob/master/mtl-street-parking/SignParser.py) and obtained the main rule (parking/no parking), the weekdays, the summer/winter term and the hours of the day to which the main rule applies. For example,
+```
+'.*((\w\w\w).* AU (\w\w\w)\w*.*)'
+```
+tryies to capture the patterns of the weekdays similar to `LUN. A VEN.`.
+You can see the full analysis done for text parsing in [this notebook](https://github.com/mnabaee/kernels/blob/master/mtl-street-parking/signTextParsing.ipynb) where we also merge the results of the found closest segments and saved it in [this pickle](https://github.com/mnabaee/kernels/blob/master/mtl-street-parking/parking_signs_processed.pkl) file as a single pandas dataframe.
 
 ##Putting everything together
 
-The final demo notebook which uses the processed signs and draws a map of the street sides for a given time period is available [here](https://github.com/mnabaee/kernels/blob/master/mtl-street-parking/demo.ipynb)
+Given a start time (in epoch format of the local machine), a duration ( in minutes) and a center point coordinate, we filter the signs that are in a radius close to the center point and had a valid text parsing. The function `applySign()` is then applied to each sign to get a ternary output (green, orange, red) which indicates what the sign rules about the provided time period.
+Finally, we draw the street side segments corresponding to each sign with the color output from the ` applySign()` function. 
+
+The final demo notebook which uses the processed signs and draws a map of the street sides for a given time period is available [here](https://github.com/mnabaee/kernels/blob/master/mtl-street-parking/demo.ipynb).
 
 In below, you can see the final results shown in a map. In the map, the street sides with green represent an appropriate place for parking during the specified hours in the specific day. 
 <img src="finalres.png" width="600" align="middle">
