@@ -5,11 +5,12 @@
 * Pattern Recognition and Machine Learning [Online PDF](http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf)
 * Deep Learning [Online PDF](http://www.deeplearningbook.org/)
 
-##Pandas:
+##Python and Tools:
+####Pandas:
 * Roberto's PyCon Intro: https://github.com/robroc/pycon-intro-pandas<br/>
 
 
-##Keras and TensorFlow:
+####Keras and TensorFlow:
 * Thomas Boquet's Presentation: https://github.com/tboquet/presentations/blob/master/Keras_intro.ipynb<br />
 * General Intro: https://blog.keras.io/keras-as-a-simplified-interface-to-tensorflow-tutorial.html<br/> 
 * Simple LSTM: https://keras.io/layers/recurrent/<br/>
