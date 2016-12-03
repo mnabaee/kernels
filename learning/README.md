@@ -10,7 +10,7 @@
 * [Intro to Machine Learning by Udacity](https://classroom.udacity.com/courses/ud120)
 * [Introduction to Data Science in Python by UofMichigan](https://www.coursera.org/learn/python-data-analysis/)
 * [Deep Learning by Udacity](https://classroom.udacity.com/courses/ud730/)
-* [2016 Deep Learning Summer School](https://videolectures.net/deeplearning2016_montreal/)
+* [2016 Deep Learning Summer School](http://videolectures.net/deeplearning2016_montreal/)
 
 ##Python and Tools:
 ####Pandas:
