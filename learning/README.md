@@ -5,6 +5,13 @@
 * Pattern Recognition and Machine Learning [Online PDF](http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf)
 * Deep Learning [Online PDF](http://www.deeplearningbook.org/)
 
+##Online Courses and Video Lectures:
+* [Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning/)
+* [Intro to Machine Learning by Udacity](https://classroom.udacity.com/courses/ud120)
+* [Introduction to Data Science in Python by UofMichigan](https://www.coursera.org/learn/python-data-analysis/)
+* [Deep Learning by Udacity](https://classroom.udacity.com/courses/ud730/)
+* [2016 Deep Learning Summer School](videolectures.net/deeplearning2016_montreal/)
+
 ##Python and Tools:
 ####Pandas:
 * Roberto's PyCon Intro: https://github.com/robroc/pycon-intro-pandas<br/>
