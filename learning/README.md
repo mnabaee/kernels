@@ -14,8 +14,9 @@
 
 ##Python and Tools:
 ####Pandas:
-* Roberto's PyCon Intro: https://github.com/robroc/pycon-intro-pandas<br/>
-
+* Roberto's PyCon Intro: https://github.com/robroc/pycon-intro-pandas
+* Parallel Computing (multiple cores of the same host): http://www.racketracer.com/2016/07/06/pandas-in-parallel/
+* Parallelizing after groupby: http://stackoverflow.com/questions/26187759/parallelize-apply-after-pandas-groupby
 
 ####Keras and TensorFlow:
 * Thomas Boquet's Presentation: https://github.com/tboquet/presentations/blob/master/Keras_intro.ipynb<br />
@@ -23,7 +24,8 @@
 * Simple LSTM: https://keras.io/layers/recurrent/<br/>
 * Distributed TF: http://learningtensorflow.com/lesson11/<br/>
 
-
+##Examples:
+* Time Series Prediction using LSTMs: http://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/
 
 
 
