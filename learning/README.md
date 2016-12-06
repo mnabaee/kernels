@@ -26,6 +26,7 @@
 
 ##Examples:
 * Time Series Prediction using LSTMs: http://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/
+* Bulding a ChatBot using LSTMs: https://github.com/llSourcell/tensorflow_chatbot/blob/master/README.md
 
 
 
