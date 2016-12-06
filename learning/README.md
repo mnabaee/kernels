@@ -29,5 +29,6 @@
 * Bulding a ChatBot using LSTMs: https://github.com/llSourcell/tensorflow_chatbot/blob/master/README.md
 
 
-
+##Fun:
+* QuickDraw: https://quickdraw.withgoogle.com/
 
