@@ -28,6 +28,7 @@
 * Time Series Regression using LSTM in Keras: https://github.com/mnabaee/kernels/blob/master/learning/lstm-tutorial.ipynb
 * Time Series Prediction using LSTMs: http://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/
 * Bulding a ChatBot using LSTMs: https://github.com/llSourcell/tensorflow_chatbot/blob/master/README.md
+* Chatbots with Seq2Seq: http://suriyadeepan.github.io/2016-06-28-easy-seq2seq/
 
 
 ##Fun:
