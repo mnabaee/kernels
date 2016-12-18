@@ -23,6 +23,7 @@
 * General Intro: https://blog.keras.io/keras-as-a-simplified-interface-to-tensorflow-tutorial.html<br/> 
 * Simple LSTM: https://keras.io/layers/recurrent/<br/>
 * Distributed TF: http://learningtensorflow.com/lesson11/<br/>
+* TensorFlow on Raspberry Pi: https://github.com/samjabrahams/tensorflow-on-raspberry-pi
 
 ##Examples:
 ###LSTM
